@@ -102,7 +102,7 @@ header{
 }
 .card:hover{
     background-color: #1a7993;
-    transition: 0.5s ease;
+    transition: 0.4s all;
 }
 .card img{
     width: 65px;
@@ -160,6 +160,10 @@ header{
     flex-direction: column;
     align-items: center;
 }
+.area-form h2{
+    color: white;
+    text-align: center;
+}
 .formulario form{
     display: flex;
     flex-direction: column;
@@ -168,7 +172,7 @@ header{
 }
 
 .formulario input{
-    margin-top: 10px;
+    margin-top: 20px;
     height: 40px;
     border: none;
     outline: none;
@@ -184,4 +188,23 @@ input[type="submit"]{
     background-color: #1a7993;
     text-transform: uppercase;
     color: white;
+    font-size: 20px;
+    height: 55px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: #145e72;
+    transition: 0.4s all;
+}
+footer{
+    margin-top: 100px;
+    
+}
+.social h3{
+    color: white;
+}
+.social img{
+    width: 40px;
+    margin-left: 15px;
 }
